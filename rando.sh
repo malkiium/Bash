@@ -11,6 +11,7 @@ do
     read -p "Donne un nombre ! : " gvn
     if [ $gvn -eq $numb ]
     then
+        echo -e " "
         echo "BIEN JOUER ! tu a trouver en"
         echo -e $trial
         echo "essaye"
