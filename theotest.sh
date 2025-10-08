@@ -2,7 +2,7 @@
 
 count=9
 
-while [ $count -ge 0 ]
+while [ $count -gt 0 ]
 do
 	echo -e $count
 	sleep 1
