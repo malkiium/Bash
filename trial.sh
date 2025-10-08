@@ -12,7 +12,7 @@ more $file
 echo "the prompt :" $PS1 #doesnt work cause you cant show prompt from file. dumbahh teacher.
 echo $(date)
 
-read n
+read -p "give us a damn number, idiot : " n
 let res=$n*1
 echo "$n x 1 = $res"
 let res=$n*2
@@ -41,6 +41,3 @@ then
 else
 	echo "HOW DID YOU EVEN GET HERE?!!"
 fi
-
-
-
