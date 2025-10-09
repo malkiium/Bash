@@ -4,6 +4,7 @@ stdname=" "
 res=" "
 stdcount=0
 totalgrds=0
+pass=" "
 
 while true
 do
@@ -20,13 +21,22 @@ do
     let avrg=$grds/3
     let totalgrds=$totalgrds+$avrg
 
+    if [ $avrg -ge 10 ]
+    then
+        pass="admis"
+    else
+        pass="ajournée"
+    fi
 
-    res="$res\n$stdname 's moyenne est de : $avrg"
+    echo "$stdname $pass, Moyenne : $avrg" >> Rsesultat
 done
+echo -e""
+
+echo -e "\033[35m Résultats :"
+echo -e "\033[0m"
+
+more Rsesultat
+rm Rsesultat
 
 let totalgrds=$totalgrds/$stdcount
-
-echo -e ""
-echo -e "voici les Résultats :"
-echo -e "$res"
-echo -e "la moyenne est de : $totalgrds"
+echo "la moyenne générale est de : $totalgrds"
