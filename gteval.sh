@@ -17,6 +17,7 @@ then
         else
             echo "options incorrecte."
         fi
+    echo -e ""
     fi
 else
     echo "ce cfichier n'existe pas."
