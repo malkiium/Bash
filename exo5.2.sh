@@ -16,5 +16,3 @@ do
         let nmbdlng=$nmbdlng+1
     fi
 done
-
-
