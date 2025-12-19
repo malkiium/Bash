@@ -1,0 +1,10 @@
+Alice [32mAdmis[0m Moyenne : 13
+Bob [31mAjourné[0m Moyenne : 8
+Charlie [32mAdmis[0m Moyenne : 17
+Diana [32mAdmis[0m Moyenne : 10
+Eve [31mAjourné[0m Moyenne : 5
+Frank [32mAdmis[0m Moyenne : 15
+Grace [32mAdmis[0m Moyenne : 12
+Henry [31mAjourné[0m Moyenne : 8
+Iris [32mAdmis[0m Moyenne : 18
+Jack [32mAdmis[0m Moyenne : 11

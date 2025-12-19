@@ -1,0 +1,10 @@
+Alice 14 12 15 13
+Bob 8 7 9
+Charlie 18 16 17 19 15
+Diana 10 11 12 9
+Eve 5 6 4 3 7
+Frank 16 15 14 17
+Grace 12 13 14 11 10
+Henry 9 8 10 7
+Iris 19 18 20 17
+Jack 11 12 10 13 9
